@@ -1,0 +1,38 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+.plan {
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background 0.3s;
+  width: 250px;
+}
+.plan:hover {
+  transform: scale(1.05);
+  background: #e3f2fd;
+}
+.popular {
+  border: 3px solid #0078d4;
+}
+.price {
+  font-size: 1.5em;
+  color: #0078d4;
+}
+a {
+  display: inline-block;
+  background: #0078d4;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}

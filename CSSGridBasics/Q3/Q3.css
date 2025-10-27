@@ -1,0 +1,5 @@
+body { font-family: Arial; background: #eef; padding: 20px; }
+form { background: white; padding: 20px; border-radius: 10px; }
+fieldset { margin-bottom: 15px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 8px; text-align: center; }

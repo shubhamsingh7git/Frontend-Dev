@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f8ff;
+  font-family: Arial;
+}
+form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+input:focus, textarea:focus {
+  border-color: #0078d4;
+}
+button {
+  background: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
