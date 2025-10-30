@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  transition: transform 0.5s ease;
+}
+
+figure:hover img {
+  transform: scale(1.1);
+}
+
+figcaption {
+  padding: 0.5rem;
+  background: #f3f3f3;
+}
