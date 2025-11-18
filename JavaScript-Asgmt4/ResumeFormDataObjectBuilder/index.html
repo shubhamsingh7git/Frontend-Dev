@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Builder</title>
+  <style>
+    input, textarea {
+      padding: 8px;
+      margin-bottom: 10px;
+      width: 270px;
+      border: 2px solid #ccc;
+      display: block;
+    }
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: -8px;
+      margin-bottom: 10px;
+    }
+    #output {
+      margin-top: 20px;
+      padding: 10px;
+      border: 2px solid black;
+      width: 320px;
+      white-space: pre-wrap;
+      background: #f8f8f8;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Resume Builder</h2>
+
+  <label>Name:</label>
+  <input type="text" id="name">
+
+  <label>Email:</label>
+  <input type="text" id="email">
+  <div id="emailError" class="error"></div>
+
+  <label>Skills (comma separated):</label>
+  <textarea id="skills"></textarea>
+
+  <label>GitHub:</label>
+  <input type="text" id="github">
+  <div id="gitError" class="error"></div>
+
+  <label>LinkedIn:</label>
+  <input type="text" id="linkedin">
+  <div id="linkError" class="error"></div>
+
+  <button id="submitBtn">Generate Resume</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

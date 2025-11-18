@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Form Validator</title>
+  <style>
+    input {
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      width: 250px;
+      display: block;
+    }
+
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: -8px;
+      margin-bottom: 10px;
+    }
+
+    .valid {
+      border-color: green;
+    }
+
+    .invalid {
+      border-color: red;
+    }
+
+    button {
+      padding: 8px 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Student Registration Form</h2>
+  <form id="studentForm">
+    <label>Name:</label>
+    <input type="text" id="name" />
+    <div id="nameError" class="error"></div>
+
+    <label>Email:</label>
+    <input type="text" id="email" />
+    <div id="emailError" class="error"></div>
+
+    <label>Phone:</label>
+    <input type="text" id="phone" />
+    <div id="phoneError" class="error"></div>
+
+    <label>Password:</label>
+    <input type="password" id="password" />
+    <div id="passwordError" class="error"></div>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

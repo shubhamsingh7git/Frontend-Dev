@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Validation</title>
+  <style>
+    input {
+      padding: 8px;
+      margin-bottom: 10px;
+      width: 250px;
+      border: 2px solid #ccc;
+      display: block;
+    }
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: -8px;
+      margin-bottom: 10px;
+    }
+    .valid {
+      border-color: green;
+    }
+    .invalid {
+      border-color: red;
+    }
+    #msg {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Login Form</h2>
+
+  <label>Username:</label>
+  <input type="text" id="username">
+  <div id="userError" class="error"></div>
+
+  <label>Password:</label>
+  <input type="password" id="password">
+  <div id="passError" class="error"></div>
+
+  <button id="loginBtn">Login</button>
+
+  <div id="msg"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
