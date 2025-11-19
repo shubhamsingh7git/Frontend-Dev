@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive YouTube Embed</title>
+<style>
+  html,body{height:100%;margin:0}
+  body{display:flex;justify-content:center;align-items:center;background:#f4f4f4;font-family:Arial,Helvetica,sans-serif}
+  .video-wrapper{width:90%;max-width:100%;position:relative;padding-top:56.25%}
+  .video-wrapper iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+  .note{width:90%;text-align:center;margin-top:2%;font-size:1.1rem;color:#333}
+</style>
+</head>
+<body>
+  <div class="video-wrapper">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="note">Resize the browser — the video uses percentage-based width and height.</div>
+</body>
+</html>
